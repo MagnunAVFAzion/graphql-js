@@ -6,6 +6,7 @@
 /denoDist
 /npm
 /deno
+/dist
 
 # Ignore Flow typings for 3rd-party libraries
 /flow-typed

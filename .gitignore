@@ -12,3 +12,6 @@
 /denoDist
 /npm
 /deno
+/dist
+*.tgz
+.DS_Store

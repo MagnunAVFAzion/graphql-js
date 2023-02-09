@@ -1,12 +1,11 @@
 {
-  "name": "graphql",
+  "name": "graphql-azion",
   "version": "15.8.0",
   "description": "A Query Language and Runtime which can target any service.",
   "license": "MIT",
   "private": true,
-  "main": "index",
-  "module": "index.mjs",
-  "types": "index.d.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "sideEffects": false,
   "homepage": "https://github.com/graphql/graphql-js",
   "bugs": {
@@ -43,6 +42,8 @@
     "check:integrations": "mocha --full-trace integrationTests/*-test.js",
     "build:npm": "node resources/build-npm.js",
     "build:deno": "node resources/build-deno.js",
+    "build:azion": "node resources/build-azion.js",
+    "pack:azion": "npm run build:azion && npm pack",
     "gitpublish:npm": "bash ./resources/gitpublish.sh npm npmDist",
     "gitpublish:deno": "bash ./resources/gitpublish.sh deno denoDist"
   },
