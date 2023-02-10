@@ -43,7 +43,7 @@
     "build:npm": "node resources/build-npm.js",
     "build:deno": "node resources/build-deno.js",
     "build:azion": "node resources/build-azion.js",
-    "pack:azion": "npm run build:azion && npm pack",
+    "pack:azion": "npm run build:azion && cd dist && npm pack && mv graphql-azion-15.8.0.tgz ../graphql-azion-15.8.0.tgz",
     "gitpublish:npm": "bash ./resources/gitpublish.sh npm npmDist",
     "gitpublish:deno": "bash ./resources/gitpublish.sh deno denoDist"
   },
