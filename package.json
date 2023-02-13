@@ -1,20 +1,20 @@
 {
-  "name": "graphql",
-  "version": "15.8.0-edge",
+  "name": "@MagnunAVFAzion/graphql",
+  "version": "15.8.0",
   "description": "A Query Language and Runtime which can target any service.",
   "license": "MIT",
-  "private": true,
+  "private": false,
   "main": "index",
   "module": "index.mjs",
   "types": "index.d.ts",
   "sideEffects": false,
-  "homepage": "https://github.com/graphql/graphql-js",
+  "homepage": "https://github.com/MagnunAVFAzion/graphql-js.git",
   "bugs": {
-    "url": "https://github.com/graphql/graphql-js/issues"
+    "url": "https://github.com/MagnunAVFAzion/graphql-js.git/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/graphql/graphql-js.git"
+    "url": "https://github.com/MagnunAVFAzion/graphql-js.git.git"
   },
   "keywords": [
     "graphql",
