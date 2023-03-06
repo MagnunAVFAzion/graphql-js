@@ -1,23 +1,10 @@
 # Azion Graphql
 Package version to run in Azion Cells (edge runtime).
 
-## Build
+## Build and Publish
 ```
 npm ci
-npm run pack:azion
-```
-Now you can use `graphql-azion-15.8.0.tgz` file in package.json.
-Ex.: 
-```
-  "dependencies": {
-    ...
-    "graphql-azion": "file:PATH_TO_FILE_DIR/graphql-azion-15.8.0.tgz"
-    ...
-  },
+npm login
+npm run publish:azion
 ```
 
-## Publish pkg in github
-```
-npm login --scope=@NAMESPACE --auth-type=legacy --registry=https://npm.pkg.github.com
-npm publish
-```
